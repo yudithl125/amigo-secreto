@@ -43,7 +43,7 @@ function sortearAmigo() {
         actualizarEstadoBotonSortear();
     }else{
         let numeroSorteado = Math.floor(Math.random()* limiteDeLaLista);
-        resultado.innerHTML = amigos[numeroSorteado];
+        resultado.innerHTML ='El nombre de tu amigo secreto es: '+ amigos[numeroSorteado];
         limpiarLista();
         actualizarEstadoBotonSortear();
     }
